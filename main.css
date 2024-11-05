@@ -1,0 +1,24 @@
+/* Basic Colors */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #e74c3c; /* Red */
+}
+
+/* General styling for the body */
+body {
+
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: blue;
+    margin: 0;
+
+    padding: 0;
+}
+
+/* Header with primary color link and header white with some padding */
+header {
+    background-color: var(--primary-color);
+    color: blue;
+    padding: 10px;
+    text-align: center;
+}
